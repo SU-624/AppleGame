@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\FMOD">
+      <UniqueIdentifier>{677a79b9-e795-4fc1-96fe-5a3dda53707d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Title">
+      <UniqueIdentifier>{4c579d0a-0f9d-4bf7-8026-f154297c29c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameBoard">
+      <UniqueIdentifier>{7d78a0c8-3326-4cf1-abd0-5ad60280d85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render">
+      <UniqueIdentifier>{f5bc454b-ca90-4c9c-ab96-6355a2348ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Title\Timer">
+      <UniqueIdentifier>{2366a1cf-7468-4092-a26e-cbb809ea9cfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppleGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>소스 파일\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AppleGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일\FMOD</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Create.cpp">
+      <Filter>소스 파일\GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>소스 파일\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInput.cpp">
+      <Filter>소스 파일\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamecontrol.cpp">
+      <Filter>소스 파일\GameBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\Title\Timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AppleGame.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\4_Resources\bitmap\background.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\bitmap\background2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\bitmap\apple_colorkey.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Bitmap\apple1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Bitmap\apple_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Bitmap\applescore.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Bitmap\Speaker_ON.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Bitmap\Speaker_OFF.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Bitmap\Title1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\4_Resources\Bitmap\Title2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

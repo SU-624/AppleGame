@@ -1,0 +1,12 @@
+﻿  AppleGame.cpp
+D:\GameAcadamy2021\Windows_Programming_Miniproject\사과게임_써머스비\5_Project\AppleGame\AppleGame\AppleGame.cpp(337,23): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GameAcadamy2021\Windows_Programming_Miniproject\사과게임_써머스비\5_Project\AppleGame\AppleGame\AppleGame.cpp(349,24): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Gamecontrol.cpp
+D:\GameAcadamy2021\Windows_Programming_Miniproject\사과게임_써머스비\5_Project\AppleGame\AppleGame\Gamecontrol.cpp(21,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MouseInput.cpp
+  Render.cpp
+  Sound.cpp
+  Timer.cpp
+  Title.cpp
+  코드를 생성하고 있습니다...
+  AppleGame.vcxproj -> D:\GameAcadamy2021\Windows_Programming_Miniproject\사과게임_써머스비\5_Project\AppleGame\Debug\AppleGame.exe
